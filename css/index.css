@@ -18,3 +18,7 @@ a {
 body {
     background-color: bisque;
 }
+
+html {
+  scroll-behavior: smooth;
+}
