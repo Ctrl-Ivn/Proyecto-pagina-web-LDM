@@ -1,0 +1,51 @@
+
+/*Contenedor de la pagina web */
+#contenedor {
+
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 7%;
+    border: solid black;
+}
+
+/*Regla para todos los enlaces */
+a {
+    text-decoration: none;
+    color: black;
+}
+/*Logotipo*/
+#imageness {
+    width: 64px;
+    margin-right: 40px;
+}
+
+/*Barra de navegacion*/
+#menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #24292e;
+    display: flex;
+    justify-content: flex-start;
+    padding: 15px 40px;
+    z-index: 1000; 
+    height: 60px;
+
+}
+
+/*Hijos de la barra de navegacion  */
+nav a {
+    height: 60px;
+    line-height: 60px; /* hace que el texto se centre verticalmente */
+    text-decoration: none;
+    border: solid rgba(130, 130, 130, 0.925);
+    background-color: rgba(74, 74, 74, 1);
+    padding: 0 20px;
+}
+
+/*hover de la barra de navegacicon */
+nav:hover {
+    background-color: rgba(239, 147, 27, 0.592);
+    transition-duration: 0.2s;
+    }

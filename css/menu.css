@@ -1,0 +1,23 @@
+.menu-superior {
+  position: fixed;       /* fijo en la parte superior */
+  top: 0;                /* pegado arriba */
+  left: 0;               /* pegado a la izquierda */
+  width: 100%;           /* ocupa todo el ancho */
+  background-color: #24292e; /* color similar al menú de GitHub */
+  display: flex;         /* elementos en fila */
+  justify-content: flex-start; /* alineados a la izquierda */
+  padding: 10px 20px;    /* espacio dentro del menú */
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2); /* pequeño sombra */
+  z-index: 1000;         /* siempre encima del contenido */
+}
+
+.menu-superior a {
+  color: white;          /* color del texto */
+  text-decoration: none; /* sin subrayado */
+  margin-right: 20px;    /* espacio entre enlaces */
+  font-weight: 500;      /* un poco más grueso */
+}
+
+.menu-superior a:hover {
+  text-decoration: underline; /* efecto simple al pasar el mouse */
+}
