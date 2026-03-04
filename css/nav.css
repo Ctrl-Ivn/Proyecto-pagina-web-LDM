@@ -1,7 +1,14 @@
+
+/*Logotipo*/
+#imageness {
+    width: 64px;
+}
 #logo1 {
 margin: 0;
 margin-right: 30px;
 }
+
+
 
 /*Barra de navegacion*/
 #menu {
