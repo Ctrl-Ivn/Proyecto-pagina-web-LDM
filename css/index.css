@@ -4,7 +4,7 @@
 
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: 7%;
+    margin-top: 6%;
     border: solid black;
 }
 
@@ -16,7 +16,11 @@ a {
 /*Logotipo*/
 #imageness {
     width: 64px;
-    margin-right: 40px;
+}
+
+#logo1 {
+margin: 0;
+margin-right: 30px;
 }
 
 /*Barra de navegacion*/
@@ -35,7 +39,7 @@ a {
 }
 
 /*Hijos de la barra de navegacion  */
-nav a {
+nav > :not(:first-child) {
     height: 60px;
     line-height: 60px; /* hace que el texto se centre verticalmente */
     text-decoration: none;
@@ -45,7 +49,11 @@ nav a {
 }
 
 /*hover de la barra de navegacicon */
-nav:hover {
+nav > :not(:first-child):hover {
     background-color: rgba(239, 147, 27, 0.592);
     transition-duration: 0.2s;
     }
+
+footer {
+    border: solid black;
+}
