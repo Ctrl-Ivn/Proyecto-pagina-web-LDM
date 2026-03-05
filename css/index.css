@@ -4,8 +4,21 @@
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 7%;
-    border: solid black;
+    border-radius: 10px;
+
+   
 }
+
+#contenedor p{
+    padding-top: 5%;
+    padding-left: 5%;
+    
+    
+}
+#contenedor p:last-child{
+ padding-bottom: 5%;
+}
+
 
 /*Regla para todos los enlaces */
 a {
@@ -19,6 +32,3 @@ body {
     background-color: bisque;
 }
 
-html {
-  scroll-behavior: smooth;
-}

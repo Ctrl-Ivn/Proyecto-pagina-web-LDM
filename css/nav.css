@@ -1,13 +1,24 @@
 /*Logotipo*/
 #imageness {
+    margin-top: 10px;
     width: 64px;
 }
 
 #logo1 {
-    margin: 0;
-    margin-right: 30px;
+    display: flex;
+    align-items: center;
+    margin: 0px ;
+    margin-right: 35%;
+    margin-left: 30px;
+    margin-bottom: 5px;
+}
+figcaption {
+    margin-top: 9px;
+    color: white;
+    margin-left: 40px;
 }
 
+    
 
 
 /*Barra de navegacion*/
@@ -22,6 +33,7 @@
     padding: 15px 40px;
     z-index: 1000;
     height: 60px;
+   
 
 }
 
@@ -31,13 +43,15 @@ nav> :not(:first-child) {
     line-height: 60px;
     /* hace que el texto se centre verticalmente */
     text-decoration: none;
-    border: solid rgba(130, 130, 130, 0.925);
-    background-color: rgba(74, 74, 74, 1);
+    background-color: #24292e;
     padding: 0 20px;
+    margin-left: 5px;
+    color: white;
+  
 }
 
 /*hover de la barra de navegacicon */
 nav> :not(:first-child):hover {
-    background-color: rgba(239, 147, 27, 0.592);
+    color: gray;
     transition-duration: 0.2s;
 }
