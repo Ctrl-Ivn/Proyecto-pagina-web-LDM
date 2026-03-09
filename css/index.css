@@ -27,8 +27,17 @@ a {
 }
 
 
-
-body {
-    background-color: bisque;
+#contenedor{
+    background-color: rgb(103, 136, 156);
 }
 
+
+#background {
+    width: 100px;
+}
+
+body{
+
+background-image: url("../img/background.png");
+
+}
