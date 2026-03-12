@@ -1,16 +1,16 @@
 <!DOCTYPE html>
 <html lang="es">
-<!--Estructura del head Idioma, juego de caracteres, Autor, Palabras clave,titulo documento y conexion con el css -->
 
+<!-- Estructura del head Idioma, juego de caracteres, Autor, Palabras clave, titulo documento y conexion con el css -->
 <!-- La parte del head sin css -->
 
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Iván Plaza">
     <meta name="keywords" content="xxxxx">
-    <title>Proyecto</title>
+    <title>Pagina Principal</title>
 
-    <!--Hojas de estilo Index -->
+    <!-- Hojas de estilo Index -->
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footed.css">
@@ -18,55 +18,65 @@
     <link rel="stylesheet" href="css/">
 </head>
 
-
-<!--Cuerpo del documento-->
+<!-- Cuerpo del documento -->
 
 <body>
-    <!-- Menu con Logo y barra de navegacion -->
-    <!-- Logo -->
-    <nav id="menu">
-        <figure id="logo1">
-            <a href="Index.html" id="logo"> <img src="img\logo.png" id="imageness"> </a>
-            <figcaption>Mi empresa</figcaption>
 
-            <!-- Barra de navegacion del index-->
+    <!-- Menu con Logo y barra de navegacion -->
+    <nav id="menu">
+
+        <!-- Logo -->
+        <figure id="logo1">
+            <a href="Index.html" id="logo">
+                <img src="img/logo.ico" id="imageness" alt="ERROR">
+            </a>
+            <figcaption>Cake shop</figcaption>
         </figure>
 
-        
+        <!-- Barra de navegacion del index -->
         <a href="Index.html">Inicio</a>
         <a href="src/Productos.html">Productos</a>
-        <a href="src/sobre-nosotros.html">Sobre nosotros</a>
-        <a href="src/Realizar-pedido.html">Realizar pedido</a>
+        <a href="src/sobre-nosotros.html">Informacion</a>
+        <a href="src/Realizar-pedido.html">Pedidos</a>
         <a href="src/contacto.html">Contactar</a>
-        <a href="doc/Menu.pdf">Menu</a>
+        <a href="src/Menu.html">Menu</a>
+
     </nav>
 
-    
-
-    <!-- cuerpo de la pagina  -->
+    <!-- cuerpo de la pagina -->
     <div id="contenedor">
-       
-        <div>
-
-        </div>
-
         <div id="texto">
-        <p>Pagina Principal</p>
+            <h1>Pagina Principal</h1>
         </div>
-        
-
-        <!-- pie de pagina -->
-        <footer>
+            <!-- pie de pagina -->
+    <footer>
+        <div id="columna1">
             <address>
-                Contacto: <a href="mailto:info@ejemplo.com">info@ejemplo.com</a><br>
-                Teléfono: <a href="tel:+34123456789">+34 123 456 789</a><br>
-                Web: <a href="https://www.ejemplo.com" target="_blank">www.ejemplo.com</a>
+                Contacto:
+                <a href="mailto:info@ejemplo.com">info@ejemplo.com</a><br>
+                Teléfono:
+                <a href="tel:+34123456789">+34 123 456 789</a><br>
+                Web:
+                <a href="https://www.ejemplo.com" target="_blank">www.ejemplo.com</a>
             </address>
-        </footer>
+        </div>
 
+        <div id="columna2">
+            <p>Copyright 2023 Todos los derechos reservados</p>
+        </div>
 
+    <div id="columna3">
+        <p>Síguenos en redes:</p>
+        <a href="https://www.facebook.com">Facebook</a><br>
+        <a href="https://www.twitter.com">Twitter</a><br>
+        <a href="https://www.instagram.com">Instagram</a><br>
+        <a href="https://www.linkedin.com">LinkedIn</a>
     </div>
-</body>
+    </footer>
+    </div>
 
+
+
+</body>
 
 </html>

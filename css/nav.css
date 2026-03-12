@@ -1,7 +1,9 @@
 /*Logotipo*/
 #imageness {
     margin-top: 10px;
-    width: 64px;
+    width: 82px;
+    border-radius: 10px;
+    border: 2px solid rgb(54, 72, 83);
 }
 
 #logo1 {
@@ -16,6 +18,8 @@ figcaption {
     margin-top: 9px;
     color: white;
     margin-left: 40px;
+    min-width: 100%;
+    font-size: 22px;
 }
 
     
@@ -27,11 +31,11 @@ figcaption {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(49, 58, 70);
+    background-color: rgb(39, 52, 60);
     display: flex;
     justify-content: flex-start;
-    padding: 15px 40px;
-    z-index: 1000;
+    padding: 20px;
+    z-index: 1;
     height: 60px;
    
 
@@ -41,12 +45,12 @@ figcaption {
 nav> :not(:first-child) {
     height: 60px;
     line-height: 60px;
-    /* hace que el texto se centre verticalmente */
-    text-decoration: none;
-    background-color: rgb(49, 58, 70);
-    padding: 0 20px;
-    margin-left: 5px;
+    text-align: center;
+    background-color: rgb(39, 52, 60);
     color: white;
+    font-size: 18px;
+    padding: 0 1%
+   
   
 }
 

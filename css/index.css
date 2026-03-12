@@ -1,43 +1,44 @@
-/*Contenedor de la pagina web */
-#contenedor {
-    background-color: white;
-    margin-left: 15%;
-    margin-right: 15%;
-    margin-top: 7%;
-    border-radius: 10px;
-
-   
+/* Reset básico */
+html, body{
+    height: 100%;
+    margin: 0;
 }
 
-#contenedor p{
-    padding-top: 5%;
-    padding-left: 5%;
-    
-    
-}
-#contenedor p:last-child{
- padding-bottom: 5%;
+/* Fondo de la página */
+body{
+    padding-top: 4%;
+    background-image: url("../img/background.png");
 }
 
-
-/*Regla para todos los enlaces */
-a {
-    text-decoration: none;
-    color: black;
-}
-
-
+/* Contenedor principal */
 #contenedor{
     background-color: rgb(103, 136, 156);
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 50px;
+    border-radius: 10px;
+
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
+/* Empuja el footer al fondo */
+#contenedor :last-child{
+    margin-top: auto;
+}
 
-#background {
+/* Solo si hay un hijo */
+#contenedor > :not(:last-child){
+    padding: 5%;
+}
+
+/* Enlaces */
+a{
+    text-decoration: none;
+}
+
+/* Imagen background opcional */
+#background{
     width: 100px;
-}
-
-body{
-
-background-image: url("../img/background.png");
-
 }
