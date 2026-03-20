@@ -1,0 +1,10 @@
+table th{
+    background-color: rgb(39, 52, 60);
+    color: white;
+}
+table td{
+    background-color: rgb(44, 92, 159);
+}
+table td{
+    border: solid 3px rgb(61, 125, 215);
+}

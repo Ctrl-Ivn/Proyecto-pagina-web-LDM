@@ -7,12 +7,17 @@ footer {
     display: flex;   
     flex-direction: row;                
     text-align: center;
+     align-items: center;
    
 }
 /*columnas*/
-footer > div {
-    flex: 1 1 200px; 
+footer div {
+ flex-direction: column;
+ padding-right: 10%;
+ padding-left: 10%;
+ 
 }
+
 
 /* Enlaces del footer */
 footer a {
@@ -23,3 +28,4 @@ footer a {
 footer a:hover {
     color: rgb(175, 175, 175); 
 }
+

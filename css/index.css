@@ -1,44 +1,36 @@
-/* Reset básico */
-html, body{
-    height: 100%;
-    margin: 0;
+/* tamaño de la imagen de fondo */
+#background {
+    width: 100px;
 }
 
 /* Fondo de la página */
-body{
+body {
     padding-top: 4%;
     background-image: url("../img/background.png");
 }
 
+/* Enlaces */
+a {
+    text-decoration: none;
+}
+
 /* Contenedor principal */
-#contenedor{
+#contenedor {
     background-color: rgb(103, 136, 156);
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 50px;
     border-radius: 10px;
-
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
 }
 
-/* Empuja el footer al fondo */
-#contenedor :last-child{
+/* ancla el footed al fondo de la pagina */
+#contenedor :last-child {
     margin-top: auto;
 }
 
-/* Solo si hay un hijo */
-#contenedor > :not(:last-child){
+/* margenes dentro de contenedor */
+#contenedor > :not(:last-child) {
     padding: 5%;
-}
-
-/* Enlaces */
-a{
-    text-decoration: none;
-}
-
-/* Imagen background opcional */
-#background{
-    width: 100px;
 }

@@ -19,17 +19,20 @@
 
 <!-- menu.html -->
 <nav id="menu">
+    <!-- Logo -->
     <figure id="logo1">
-        <a href="../Index.html" id="logo"> <img src="../img\select-all-2164492800.jpg" id="imageness"> </a>
-        <figcaption>Mi empresa</figcaption>
-
+        <a href="../Index.html" id="logo">
+            <img src="../img/logo.ico" id="imageness" alt="ERROR">
+        </a>
+        <figcaption>Cake shop</figcaption>
     </figure>
     <a href="../Index.html">Inicio</a>
     <a href="Productos.html">Productos</a>
-    <a href="sobre-nosotros.html">Informacion</a>
+    <a href="sobre-nosotros.html">Información</a>
     <a href="Realizar-pedido.html">Pedidos</a>
-    <a href="contacto.html">Contactar</a>
-    <a href="../doc/Menu.pdf">Menu</a>
+    <a href="contacto.html"><span>Contactar</span></a>
+    <a href="../src/Menu.html">Menú</a>
+    <a href="../src/login.html">Iniciar Sesión</a>
 </nav>
 
 <!--  <section>, <article>, <nav>, <header>, <footer>
@@ -47,41 +50,43 @@
     <!-- Estructura de formulario basica -->
 
     <form action="resultado.html" method="post">
-        <legend>Contacto</legend>
+        <legend>
+            <h1>Contacto</h1>
+        </legend>
         <fieldset>
-            
-       
+            <p>
+                <label for="nombre">Nombre:</label>
+                <br>
+                <input type="text" placeholder="Escribe tu nombre" id="nombre" name="nombre">
+            </p>
+            <p>
+                <label for="nombre">Correo electrónico:</label>
+                <br>
+                <input type="email" placeholder="ejemplo@correo.com" id="nombre" name="nombre">
+            </p>
+            <p>
+                <label for="nombre">Telefono:</label>
+                <br>
+                <input type="text" placeholder="634 343 323" id="nombre" name="nombre">
+            </p>
+            <p>
+                <label for="nombre">Mensaje</label>
+                <br>
+                <input type="text" placeholder="Mensaje..." id="nombre" name="nombre">
+            </p>
+            <!-- Enviar -->
 
-        
-        <p>
-            <label for="nombre">Nombre</label>
-            <br>
-            <input type="text" id="nombre" name="nombre">
-        </p>
-        <p>
-            <label for="nombre">Correo Electronico</label>
-            <br>
-            <input type="text" id="nombre" name="nombre">
-        </p>
-        <p>
-            <label for="nombre">Telefono</label>
-            <br>
-            <input type="text" id="nombre" name="nombre">
-        </p>
-        <p>
-            <label for="nombre">Mensaje</label>
-            <br>
-            <input type="text" id="nombre" name="nombre">
-        </p>
-         <!-- Enviar -->
-       
- </fieldset>
+        </fieldset>
         <div id="submit">
-        <p>
-            <label for=""></label>
-            <input type="submit">
-        </p>
-       </div>  
+            <p>
+                <label for=""></label>
+                <input type="submit">
+            </p>
+            <p>
+
+                <input type="reset" value="Reset">
+            </p>
+        </div>
     </form>
 
     </form>

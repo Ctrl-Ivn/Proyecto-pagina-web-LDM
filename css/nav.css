@@ -22,40 +22,52 @@ figcaption {
     font-size: 22px;
 }
 
-    
-
-
 /*Barra de navegacion*/
 #menu {
+    z-index: 1;
     position: fixed;
+    display: flex;
+    text-align: center;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(39, 52, 60);
-    display: flex;
-    justify-content: flex-start;
-    padding: 20px;
-    z-index: 1;
     height: 60px;
-   
+    padding: 20px;
+    background-color: rgb(39, 52, 60); 
 
 }
 
 /*Hijos de la barra de navegacion  */
-nav> :not(:first-child) {
+nav :not(:first-child) {
     height: 60px;
     line-height: 60px;
     text-align: center;
     background-color: rgb(39, 52, 60);
     color: white;
     font-size: 18px;
-    padding: 0 1%
+    padding: 0 1%;
    
-  
 }
 
 /*hover de la barra de navegacicon */
 nav> :not(:first-child):hover {
     color: gray;
     transition-duration: 0.2s;
+}
+
+nav span{
+    text-decoration:underline white;
+}
+
+nav > :last-child {
+    margin-left: 20px;
+    background-color: white;
+    border-radius: 10px;
+    color: black
+}
+
+nav > :last-child:hover {
+  background-color: rgb(168, 168, 168);
+  color: black;
+  border-color: black;
 }

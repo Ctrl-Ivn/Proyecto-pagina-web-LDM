@@ -2,34 +2,36 @@
 <html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="author" content="Iván Plaza">
-    <meta name="keywords" content="xxxxx">
-    <title>Productos</title>
-    <!--Hojas de estilo para subcarpetas -->
-    <link rel="stylesheet" href="../css/index.css">
-    <link rel="stylesheet" href="../css/nav.css">
-    <link rel="stylesheet" href="../css/footed.css">
-    <link rel="stylesheet" href="../css/">
-    <link rel="stylesheet" href="../css/">
-    <!--Idioma, juego de caracteres, Autor, Palabras clave y titulo documento y conexion con el css -->
+  <meta charset="UTF-8">
+  <meta name="author" content="Iván Plaza">
+  <meta name="keywords" content="xxxxx">
+  <title>Productos</title>
+  <!--Hojas de estilo para subcarpetas -->
+  <link rel="stylesheet" href="../css/index.css">
+  <link rel="stylesheet" href="../css/nav.css">
+  <link rel="stylesheet" href="../css/footed.css">
+  <link rel="stylesheet" href="../css/tabla.css">
+  <link rel="stylesheet" href="../css/">
+  <!--Idioma, juego de caracteres, Autor, Palabras clave y titulo documento y conexion con el css -->
 
 </head>
 
-
 <!-- menu.html -->
 <nav id="menu">
-    <figure id="logo1">
-        <a href="../Index.html" id="logo"> <img src="../img\select-all-2164492800.jpg" id="imageness"> </a>
-       <figcaption>Mi empresa</figcaption>
-
-    </figure>
-    <a href="../Index.html">Inicio</a>
-    <a href="Productos.html">Productos</a>
-    <a href="sobre-nosotros.html">Sobre nosotros</a>
-    <a href="Realizar-pedido.html">Realizar pedido</a>
-    <a href="contacto.html">Contactar</a>
-    <a href="../doc/Menu.pdf">Menu</a>
+  <!-- Logo -->
+  <figure id="logo1">
+    <a href="../Index.html" id="logo">
+      <img src="../img/logo.ico" id="imageness" alt="ERROR">
+    </a>
+    <figcaption>Cake shop</figcaption>
+  </figure>
+  <a href="../Index.html">Inicio</a>
+  <a href="Productos.html"><span>Productos</span></a>
+  <a href="sobre-nosotros.html">Información</a>
+  <a href="Realizar-pedido.html">Pedidos</a>
+  <a href="contacto.html">Contactar</a>
+  <a href="../src/Menu.html">Menú</a>
+  <a href="../src/login.html">Iniciar Sesión</a>
 </nav>
 
 <!--  <section>, <article>, <nav>, <header>, <footer>
@@ -40,64 +42,61 @@
 
 <!-- cuerpo de la pagina  -->
 <div id="contenedor">
-    <p>
-        Productos
-    </p>
+  <table>
+    <br>
+    <caption>
+      <h1>Productos de la Pastelería</h1>
+    </caption>
+    <thead>
+      <tr>
+        <th>Imagen</th>
+        <th>Producto</th>
+        <th>Precio</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><img src="img/imagen1.jpg" alt="Pastel de chocolate"></td>
+        <td>Pastel de Chocolate</td>
+        <td>$15</td>
+      </tr>
+      <tr>
+        <td><img src="img/imagen2.jpg" alt="Pastel de vainilla"></td>
+        <td>Pastel de Vainilla</td>
+        <td>$14</td>
+      </tr>
+      <tr>
+        <td><img src="img/imagen3.jpg" alt="Croissant"></td>
+        <td>Croissant</td>
+        <td>$3</td>
+      </tr>
+      <tr>
+        <td><img src="img/imagen4.jpg" alt="Galletas"></td>
+        <td>Galletas surtidas</td>
+        <td>$5</td>
+      </tr>
+      <tr>
+        <td><img src="img/imagen5.jpg" alt="Tarta de frutas"></td>
+        <td>Tarta de Frutas</td>
+        <td>$18</td>
+      </tr>
+    </tbody>
+    <tfoot>
+      <tr>
+        <th colspan="3">¡Visítanos y disfruta de nuestros productos!</th>
+      </tr>
+    </tfoot>
+  </table>
 
-    <!-- Estructura de Tabla -->
-    <table border="1">
-        <caption></caption>
-        <thead>
-            <tr></tr>
-            <td></td>
-            <th></th>
-        </thead>
-        <tbody>
-            <tr></tr>
-            <td></td>
-            <th></th>
-        </tbody>
-        <tbody>
-            <td colspan=”2”>
-        </tbody>
-        <tbody>
-            <td rowspan=”2”>
-        </tbody>
-        <tbody></tbody>
-        <tbody></tbody>
-        <tbody></tbody>
-        <tfoot>
-            <tr></tr>
-            <th></th>
-        </tfoot>
 
-    </table>
-
-
-    <!-- Estructura de formulario basica -->
-
-    <form action="resultado.html" method="post">
-        <fieldset>
-            <legend></legend>
-        </fieldset>
-
-        <legend></legend>
-        <p>
-            <label for="nombre"></label>
-            <input type="text" id="" name="">
-        </p>
-
-
-    </form>
-
-    <footer>
-        <address>
-            <br>
-            Contacto: <a href="mailto:info@ejemplo.com">info@ejemplo.com</a><br>
-            Teléfono: <a href="tel:+34123456789">+34 123 456 789</a><br>
-            Web: <a href="https://www.ejemplo.com" target="_blank">www.ejemplo.com</a>
-        </address>
-    </footer>
+  <footer>
+    <address>
+      <br>
+      Contacto: <a href="mailto:info@ejemplo.com">info@ejemplo.com</a><br>
+      Teléfono: <a href="tel:+34123456789">+34 123 456 789</a><br>
+      Web: <a href="https://www.ejemplo.com" target="_blank">www.ejemplo.com</a>
+    </address>
+  </footer>
 
 
 </div>
