@@ -30,7 +30,7 @@
             <a href="Index.html" id="logo">
                 <img src="img/logo.ico" id="imageness" alt="ERROR">
             </a>
-            <figcaption>Cake shop</figcaption>
+            <figcaption id="titulo">Cake Shop</figcaption>
         </figure>
 
         <!-- Barra de navegacion del index -->
@@ -47,8 +47,11 @@
     <!-- cuerpo de la pagina -->
     <div id="contenedor">
         <div id="texto">
-            <h1>Pagina Principal</h1>
-                 <h2>Cake Shop</h2>
+            <!--COLUMNA 1-->
+            <div id="Bcolumna1">
+            
+            <h1>Pagina Principal</h1> 
+                 <h2><span id="titulo1">Cake Shop</span></h2>
             <p>
                 En nuestra pastelería cada mañana horneamos <span>pasteles artesanales</span> y deliciosos
                 <span>croissants recién hechos</span> para que nuestros clientes disfruten de algo dulce y especial.
@@ -58,14 +61,17 @@
                 <source src="audio/musica.mp3" type="audio/mpeg">
                 Tu navegador no soporta audio.
             </audio>
+            </div>
             <!--Mapa de area-->
             <h2>Localizacion</h2>
             <img src="mapa.jpg" usemap="#mimapa">
-
+            <!--COLUMNA 2-->
+            <div id="Bcolumna2">
             <map name="mimapa">
                 <area shape="rect" coords="34,44,270,350" href="pagina1.html" alt="Zona 1">
                 <area shape="circle" coords="337,300,44" href="pagina2.html" alt="Zona 2">
             </map>
+            </div>
         </div>
         <!-- pie de pagina -->
         <footer>
