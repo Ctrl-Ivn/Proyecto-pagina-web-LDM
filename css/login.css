@@ -1,0 +1,32 @@
+/* Inputs del formulario */
+#contenedor input {
+    width: 50%;
+    padding: 8px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Botón de login */
+#contenedor button {
+    width: 55%;
+    padding: 8px;
+    margin: 10px 0;
+    background-color: #5563DE;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+#contenedor button:hover{
+    background-color: #6170f9;
+}
+/* Link de recuperar contraseña */
+#contenedor form a {
+    display: block;
+    margin-top: 6px;
+    color: #5563DE;
+    text-decoration: none;
+    font-size: 12px;
+}

@@ -15,57 +15,65 @@
     <!--Idioma, juego de caracteres, Autor, Palabras clave y titulo documento y conexion con el css -->
 </head>
 
+<body>
 
-<!-- menu.html -->
-<nav id="menu">
-    <!-- Logo -->
-    <figure id="logo1">
-        <a href="../Index.html" id="logo">
-            <img src="../img/logo.ico" id="imageness" alt="ERROR">
-        </a>
-        <figcaption id="titulo">Cake Shop</figcaption>
-    </figure>
-    <a href="../Index.html">Inicio</a>
-    <a href="Productos.html">Productos</a>
-    <a href="sobre-nosotros.html">Información</a>
-    <a href="Realizar-pedido.html">Pedidos</a>
-    <a href="contacto.html">Contactar</a>
-    <a href="../src/Menu.html"><span>Menú</span></a>
-    <a href="../src/login.html">Iniciar Sesión</a>
-</nav>
+    <!-- menu.html -->
+    <nav id="menu">
+        <!-- Logo -->
+        <figure id="logo1">
+            <a href="../Index.html" id="logo">
+                <img src="../img/logo.ico" id="imageness" alt="ERROR">
+            </a>
+            <figcaption id="titulo">Cake Shop</figcaption>
+        </figure>
+        <a href="../Index.html">Inicio</a>
+        <a href="Productos.html">Productos</a>
+        <a href="sobre-nosotros.html">Información</a>
+        <a href="Realizar-pedido.html">Pedidos</a>
+        <a href="contacto.html">Contactar</a>
+        <a href="../src/Menu.html"><span>Menú</span></a>
+        <a href="../src/login.html">Iniciar Sesión</a>
+    </nav>
 
-<!--  <section>, <article>, <nav>, <header>, <footer>
+    <!--  <section>, <article>, <nav>, <header>, <footer>
     contenedores que no sean div para organizar el html-->
 
 
 
 
-<!-- cuerpo de la pagina  -->
-<div id="contenedor">
-    <h1>Menú</h1>
+    <!-- cuerpo de la pagina  -->
+    <div id="contenedor">
+        <h1>Menú</h1>
 
 
-    <!--Estructura de un menu desplegable-->
-    <details>
-        <summary>Haz clic para ver más información.</summary>
-        <a href="../doc/Menu.pdf">
-            <p>Menu.pdf</p>
-        </a>
-    </details>
+        <!--Estructura de un menu desplegable-->
+        <details>
+            <summary>Haz clic para ver más información.</summary>
+            <a href="../doc/Menu.pdf">
+                <p>Menu.pdf</p>
+            </a>
+        </details>
 
 
-    <!-- pie de pagina -->
+        <!-- pie de pagina -->
         <footer>
             <div id="columna1">
                 <address>
-                    Contacto:
-                    <a href="mailto:info@ejemplo.com">info@ejemplo.com</a><br>
-                    Teléfono:
-                    <a href="tel:+34123456789">+34 123 456 789</a><br>
-                    Web:
-                    <a href="https://www.ejemplo.com">www.ejemplo.com</a>
+                    <span>Contacto:</span>
+
+                    <div class="contacto-item">
+
+                        <img src="../img/sobre.png" alt="Correo">
+                        <a href="mailto:info@ejemplo.com">info@ejemplo.com</a>
+                    </div>
+
+                    <div class="contacto-item">
+                        <img src="../img/telefono.png" alt="Teléfono">
+                        <a href="tel:+34123456789">+34 123 456 789</a>
+                    </div>
                 </address>
             </div>
+
 
             <div id="columna2">
                 <p>Copyright 2026 Todos los derechos reservados</p>
@@ -73,14 +81,24 @@
 
             <div id="columna3">
                 <p>Síguenos en redes:</p>
-                <a href="https://www.facebook.com">Facebook</a><br>
-                <a href="https://www.twitter.com">Twitter</a><br>
-                <a href="https://www.instagram.com">Instagram</a><br>
-                <a href="https://www.linkedin.com">LinkedIn</a>
+                <div id="twitter">
+                    <img src="../img/twitter.jpg" alt="ERROR">
+                    <a href="https://www.twitter.com">Twitter</a>
+                </div>
+                <div id="instagram">
+                    <img src="../img/instagram.png" alt="ERROR">
+                    <a href="https://www.instagram.com">Instagram</a>
+                </div>
+                <div id="linkedin">
+                    <img src="../img/linkedin.png" alt="ERROR">
+                    <a href="https://www.linkedin.com">LinkedIn</a>
+                </div>
             </div>
         </footer>
+    </div>
 
-</div>
+
+    </div>
 </body>
 
 

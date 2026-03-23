@@ -1,44 +1,37 @@
-form p {
-    margin: 5%;
+/* Inputs del formulario */
+#contenedor input {
+    width: 50%;
+    padding: 8px;
+    margin: 6px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
-
-input{
-
-    border-radius: 10px;
-}
-fieldset {
-    margin: 5%;
-    border-radius: 10px;
-    border:solid 3px rgb(0, 115, 255);
-    background-color: rgb(123, 162, 185);
-}
-
-
-
-#submit input {
-    padding: 1%;
-    background-color: rgb(0, 170, 255);
+/* Botón de login */
+#contenedor input[type="submit"],input[type="reset"] {
+    width: 55%;
+    padding: 8px;
+    margin: 10px 0;
+    background-color: #cf7835;
     color: white;
-    border: solid rgb(0, 170, 255);
-    border-radius: 10px;
-    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
 }
-
-#submit input:hover {
-    background-color: rgb(0, 103, 163);
-    color: rgb(190, 190, 190);
-    border: solid rgb(0, 103, 163);
+ input[type="submit"]:hover ,input[type="reset"]:hover{
+    background-color: #ee8a3d;
 }
-
-fieldset input {
- padding: 1%;
-border:solid 3px rgb(0, 115, 255);
+/* Link de recuperar contraseña */
+#contenedor form a {
+    display: block;
+    margin-top: 6px;
+    color: #5563DE;
+    text-decoration: none;
+    font-size: 12px;
 }
-
-legend {
-    margin-left: 10%;
-    position: flex;
-    font-weight: bold;
-
+#contenedor input{
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* centra horizontalmente los inputs y botones */
 }

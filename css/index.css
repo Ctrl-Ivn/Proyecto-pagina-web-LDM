@@ -1,7 +1,9 @@
 /* tamaño de la imagen de fondo */
 #background {
     width: 100px;
+    
 }
+
 
 /* Fondo de la página */
 body {
@@ -16,26 +18,26 @@ a {
     text-decoration: none;
 }
 
-#titulo1 {
-    color:#BF7350;
-}
+
 /* Contenedor principal */
 #contenedor {
-    background-color: rgb(255, 255, 255);
-    margin-left: 15%;
-    margin-right: 15%;
+    background-color: #F3ECE9;
+    margin-left: 7%;
+    margin-right: 7%;
     margin-top: 50px;
     border-radius: 10px;
-    display: flex;
-    flex-direction: column;
+ 
 }
+#contenedor > :not(:last-child) {
+    padding: 5%;
+}
+
+
+
 
 /* ancla el footed al fondo de la pagina */
 #contenedor :last-child {
     margin-top: auto;
 }
 
-/* margenes dentro de contenedor */
-#contenedor > :not(:last-child) {
-    padding: 5%;
-}
+

@@ -1,10 +1,21 @@
-table th{
-    background-color: rgb(39, 52, 60);
-    color: white;
+tbody th, tbody td {
+    padding: 40px;
 }
-table td{
-    background-color: rgb(44, 92, 159);
+
+
+table th {
+    background-color: #8B5E3C;
+    color: #FFF8E7;
 }
-table td{
-    border: solid 3px rgb(61, 125, 215);
+table td {
+    border: 2px solid #A67C52;
+    background-color: #D9C2A6;
+    color: #4B2E1E;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 20px auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
 }
