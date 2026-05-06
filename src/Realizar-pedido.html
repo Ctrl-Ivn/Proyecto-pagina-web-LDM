@@ -28,9 +28,9 @@
     </figure>
     <a href="../Index.html">Inicio</a>
     <a href="Productos.html">Productos</a>
-    <a href="sobre-nosotros.html">Información</a>
     <a href="Realizar-pedido.html"><span>Pedidos</span></a>
     <a href="contacto.html">Contactar</a>
+    <a href="sobre-nosotros.html">Información</a>
     <a href="../src/Menu.html">Menú</a>
     <a href="../src/login.html">Iniciar Sesión</a>
 </nav>
@@ -50,87 +50,88 @@
 
     <!-- Estructura de formulario basica -->
 
-<form action="procesar_pedido.php" method="POST">
+    <form action="procesar_pedido.php" method="POST">
+        <!-- nombre -->
+        <label for="nombre">Nombre:</label><br>
+        <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required><br><br>
+        <!-- email -->
+        <label for="email">Correo electrónico:</label><br>
+        <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required><br><br>
+        <!-- telefono -->
+        <label for="telefono">Teléfono:</label><br>
+        <input type="tel" id="telefono" name="telefono" placeholder="634 343 323" required><br><br>
+        <!-- fecha -->
+        <label for="fecha">Fecha del pedido:</label><br>
+        <input type="date" id="fecha" name="fecha" required><br><br>
 
-    <label for="nombre">Nombre:</label><br>
-    <input type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre" required><br><br>
+        <label for="producto">Producto:</label><br>
+        <select id="producto" name="producto" required>
+            <option value="">--Selecciona un producto--</option>
+            <option value="pastel_chocolate">Pastel de chocolate</option>
+            <option value="pastel_vainilla">Pastel de vainilla</option>
+            <option value="croissant">Croissant</option>
+            <option value="galletas">Galletas</option>
+        </select><br>
 
-    <label for="email">Correo electrónico:</label><br>
-    <input type="email" id="email" name="email" placeholder="ejemplo@correo.com" required><br><br>
+        <p>¿Quieres pepitas de chocolate?</p>
+        <input type="radio" id="si" name="pepitas" value="si" required>
+        <label for="si">Sí</label>
+        <input type="radio" id="no" name="pepitas" value="no" checked required>
+        <label for="no">No</label><br>
 
-    <label for="telefono">Teléfono:</label><br>
-    <input type="tel" id="telefono" name="telefono" placeholder="634 343 323" required><br><br>
+        <label for="cantidad">Cantidad:</label><br>
+        <input type="number" id="cantidad" name="cantidad" min="1" value="1" required><br><br>
 
-    <label for="fecha">Fecha del pedido:</label><br>
-    <input type="date" id="fecha" name="fecha" required><br><br>
+        <label for="comentarios">Comentarios adicionales:</label><br>
+        <textarea id="comentarios" name="comentarios" rows="4" cols="30"
+            placeholder="Ej: Sin azúcar, decoraciones especiales..."></textarea><br><br>
 
-    <label for="producto">Producto:</label><br>
-    <select id="producto" name="producto" required>
-        <option value="">--Selecciona un producto--</option>
-        <option value="pastel_chocolate">Pastel de chocolate</option>
-        <option value="pastel_vainilla">Pastel de vainilla</option>
-        <option value="croissant">Croissant</option>
-        <option value="galletas">Galletas</option>
-    </select><br><br>
+        <input type="submit" value="Enviar Pedido"><br>
+        <input type="reset" value="Borrar Formulario"><br>
 
-    <p>¿Quieres pepitas de chocolate?</p>
-    <input type="radio" id="si" name="pepitas" value="si" required>
-    <label for="si">Sí</label><br>
-    <input type="radio" id="no" name="pepitas" value="no" checked required>
-    <label for="no">No</label><br><br>
+    </form>
 
-    <label for="cantidad">Cantidad:</label><br>
-    <input type="number" id="cantidad" name="cantidad" min="1" value="1" required><br><br>
+    <!-- pie de pagina -->
+    <footer>
+        <div id="columna1">
+            <address>
+                <span>Contacto:</span>
 
-    <label for="comentarios">Comentarios adicionales:</label><br>
-    <textarea id="comentarios" name="comentarios" rows="4" cols="30" placeholder="Ej: Sin azúcar, decoraciones especiales..."></textarea><br><br>
+                <div class="contacto-item">
 
-    <input type="submit" value="Enviar Pedido"><br>
-    <input type="reset" value="Borrar Formulario"><br>
-
-</form>
-
-         <!-- pie de pagina -->
-        <footer>
-            <div id="columna1">
-                <address>
-                    <span>Contacto:</span>
-
-                    <div class="contacto-item">
-
-                        <img src="../img/sobre.png" alt="Correo">
-                        <a href="mailto:info@ejemplo.com">info@ejemplo.com</a>
-                    </div>
-
-                    <div class="contacto-item">
-                        <img src="../img/telefono.png" alt="Teléfono">
-                        <a href="tel:+34123456789">+34 123 456 789</a>
-                    </div>
-                </address>
-            </div>
-
-
-            <div id="columna2">
-                <p>Copyright 2026 Todos los derechos reservados</p>
-            </div>
-
-            <div id="columna3">
-                <p>Síguenos en redes:</p>
-                <div id="twitter">
-                    <img src="../img/twitter.jpg" alt="ERROR">
-                    <a href="https://www.twitter.com">Twitter</a>
+                    <img src="../img/sobre.png" alt="Correo">
+                    <a href="mailto:info@ejemplo.com">info@ejemplo.com</a>
                 </div>
-                <div id="instagram">
-                    <img src="../img/instagram.png" alt="ERROR">
-                    <a href="https://www.instagram.com">Instagram</a>
+
+                <div class="contacto-item">
+                    <img src="../img/telefono.png" alt="Teléfono">
+                    <a href="tel:+34123456789">+34 123 456 789</a>
                 </div>
-                <div id="linkedin">
-                    <img src="../img/linkedin.png" alt="ERROR">
-                    <a href="https://www.linkedin.com">LinkedIn</a>
-                </div>
+            </address>
+        </div>
+
+
+        <div id="columna2">
+            <p>Copyright 2026 Todos los derechos reservados</p>
+        </div>
+
+        <div id="columna3">
+            <p>Síguenos en redes:</p>
+            <div id="twitter">
+                <img src="../img/twitter.jpg" alt="ERROR">
+                <a href="https://www.twitter.com">Twitter</a>
             </div>
-        </footer>
-    </div>
+            <div id="instagram">
+                <img src="../img/instagram.png" alt="ERROR">
+                <a href="https://www.instagram.com">Instagram</a>
+            </div>
+            <div id="linkedin">
+                <img src="../img/linkedin.png" alt="ERROR">
+                <a href="https://www.linkedin.com">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+</div>
 
 
 </div>

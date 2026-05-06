@@ -1,4 +1,4 @@
-/* Inputs del formulario */
+/* inputs del formulario */
 #contenedor input {
     width: 50%;
     padding: 8px;
@@ -7,8 +7,8 @@
     border-radius: 5px;
 }
 
-/* Botón de login */
-#contenedor input[type="submit"],input[type="reset"] {
+/* boton de login */
+#contenedor input[type="submit"], #contenedor input[type="reset"] {
     width: 55%;
     padding: 8px;
     margin: 10px 0;
@@ -17,21 +17,11 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
-
 }
- input[type="submit"]:hover ,input[type="reset"]:hover{
+
+
+input[type="submit"]:hover ,input[type="reset"]:hover{
     background-color: #ee8a3d;
 }
-/* Link de recuperar contraseña */
-#contenedor form a {
-    display: block;
-    margin-top: 6px;
-    color: #5563DE;
-    text-decoration: none;
-    font-size: 12px;
-}
-#contenedor input{
-    display: flex;
-    flex-direction: column;
-    align-items: center; /* centra horizontalmente los inputs y botones */
-}
+
+

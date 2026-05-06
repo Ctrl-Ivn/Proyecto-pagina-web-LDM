@@ -1,0 +1,50 @@
+/* Título */
+#contenedor h1 {
+    color: #5a3e2b; /* marrón oscuro */
+}
+
+/* Caja del desplegable */
+details {
+    margin-left: 5%;
+    margin-bottom: 10%;
+    background-color: #d2b48c; 
+    border: 2px solid #8b5a2b;
+    border-radius: 10px;
+    padding: 5px;
+    width: 250px;
+}
+
+/* Texto del summary */
+summary {
+    cursor: pointer;
+   color: #3e2723; /* marrón más oscuro */
+}
+
+/* Contenido dentro */
+details p {
+    background-color: #f4d1a4;
+    border: 2px solid #8b5a2b;
+    margin: 10px 0 0 0;
+    color: #a22b27;
+    font-weight: bold;
+    border-radius: 10px;
+    padding:3%;
+}
+details a:hover {
+    background-color: #fce0bb;
+}
+#texto p{
+    width: 400px;
+}
+
+#subcontenedor{
+   display: flex;
+
+}
+#subcontenedor img{
+    border-radius: 10px;
+        box-shadow: 0px 10px 40px 20px rgba(100, 100, 100, 0.5);
+}
+#Mcolumna2{
+    margin-left: 10%;
+}

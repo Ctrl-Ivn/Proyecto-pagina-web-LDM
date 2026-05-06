@@ -12,7 +12,7 @@
     width: 55%;
     padding: 8px;
     margin: 10px 0;
-    background-color: #5563DE;
+    background-color: #cf7835;
     color: white;
     border: none;
     border-radius: 5px;
@@ -20,7 +20,7 @@
 
 }
 #contenedor button:hover{
-    background-color: #6170f9;
+    background-color: #ee8a3d;
 }
 /* Link de recuperar contraseña */
 #contenedor form a {
@@ -30,3 +30,7 @@
     text-decoration: none;
     font-size: 12px;
 }
+
+
+
+

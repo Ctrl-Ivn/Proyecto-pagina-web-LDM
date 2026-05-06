@@ -4,7 +4,7 @@
 
 #contenedor > :not(:last-child){
    display: flex;
-    flex-direction: row;
+   flex-direction: row;
 }
 
 #Bcolumna1 p{
@@ -25,4 +25,17 @@ h2{
 
 #titulo1 {
     color:#BF7350;
+}
+
+b,i {
+  font-weight: bold
+}
+hr{
+  width: 90%;
+    height: 5px;
+  background-color: #44281b;
+  border-radius: 10px;
+  border:none;
+  
+  
 }
